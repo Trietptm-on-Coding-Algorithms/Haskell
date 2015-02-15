@@ -1,6 +1,6 @@
 -- Chops a list into lists of at most eight bits
 import Unfold
-type Bit = Integer
+type Bit = Int
 
 chop8 :: [Bit] -> [[Bit]]
 chop8 [] = []
